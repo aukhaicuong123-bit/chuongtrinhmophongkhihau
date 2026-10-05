@@ -107,3 +107,5 @@ nav button,.share,.primary,.secondary,.mobile-menu,.link-button{transition:color
 .earth-art .orbit{animation:none!important;box-shadow:0 0 16px #8be0c522}.earth-art .orbit::before,.earth-art .orbit::after{display:none!important}.earth-art .orbit-one{z-index:3;opacity:.78}.earth-art .orbit-two{z-index:4;opacity:.62}.earth-art .orbit-two::before,.earth-art .orbit-two::after{display:none!important}
 /* Mobile: Trái Đất chỉ nổi nhẹ theo chiều dọc, không lắc ngang và không mất căn giữa. */
 @media(max-width:600px){.earth-art .earth{animation:mobileEarthFloat 7s ease-in-out infinite;transform:translateX(50%);will-change:transform}}@keyframes mobileEarthFloat{0%,100%{transform:translateX(50%) translateY(0)}50%{transform:translateX(50%) translateY(-7px)}}
+/* Căn chung tâm hai quỹ đạo để giao điểm nằm đúng giữa Trái Đất. */
+.earth-art .orbit-one{top:170px}.earth-art .orbit-two{top:185px}@media(max-width:600px){.earth-art .orbit-one{top:130px}.earth-art .orbit-two{top:130px}}
